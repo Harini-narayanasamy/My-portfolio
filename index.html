@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Harini Narayanasamy</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Harini Narayanasamy</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <div class="alignment" >
+    <section id="profile">
+      
+      <div class="section__pic-container">
+        <img src="https://ik.imagekit.io/zog1wlw2a/black%20dress.jpg?" alt="Harini profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Harini Narayanasamy</h1>
+        <p class="section__text__p2">Frontend Developer</p>
+        
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('https://ik.imagekit.io/zog1wlw2a/RenderCV_Classic_Theme__1_.pdf?')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="https://ik.imagekit.io/zog1wlw2a/linkedin.webp?"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/harini-narayanasamy/'"/>
+          <img
+            src="https://ik.imagekit.io/zog1wlw2a/git.png?"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/Harini-narayanasamy'"
+          />
+        </div>
+      </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="https://ik.imagekit.io/zog1wlw2a/Untitled%20design%20(1).jpg?
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="https://ik.imagekit.io/zog1wlw2a/education.png?"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p><strong>B.E Electronics and Communication </strong> </p>
+              <p> SSN College of Engineering</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="https://ik.imagekit.io/zog1wlw2a/education.png?"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>Higher Secondary School<br />Sri Chaitanya Junior Kalasala</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Second-year B.E.Electronics and Communication Engineering student with a strong passion for web development and
+              a solid foundation in front-end technologies. Seeking a frontend internship opportunity to apply and enhance my skills
+             in creating user-friendly, responsive, and impactful digital experiences, while contributing to innovative projects in a
+             dynamictech-driven environment.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="https://ik.imagekit.io/zog1wlw2a/down.png?"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Tech-Stack</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="https://ik.imagekit.io/zog1wlw2a/tick.jpg?"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+    
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://ik.imagekit.io/zog1wlw2a/tick.jpg?"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                 
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://ik.imagekit.io/zog1wlw2a/tick.jpg?"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                 
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://ik.imagekit.io/zog1wlw2a/tick.jpg?"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>React js</h3>
+                
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://ik.imagekit.io/zog1wlw2a/tick.jpg?"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>C</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://ik.imagekit.io/zog1wlw2a/tick.jpg?"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>C++</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://ik.imagekit.io/zog1wlw2a/tick.jpg?"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://ik.imagekit.io/zog1wlw2a/tick.jpg?"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Java</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://ik.imagekit.io/zog1wlw2a/tick.jpg?"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>OOPS</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://ik.imagekit.io/zog1wlw2a/tick.jpg?"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>MATLAB</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://ik.imagekit.io/zog1wlw2a/tick.jpg?"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>VHDL</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://ik.imagekit.io/zog1wlw2a/tick.jpg?"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Verilog</h3>
+                  
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Tools & Software</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="https://ik.imagekit.io/zog1wlw2a/tick.jpg?"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SQL</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://ik.imagekit.io/zog1wlw2a/tick.jpg?"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                 
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://ik.imagekit.io/zog1wlw2a/tick.jpg?"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Github</h3>
+                 
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://ik.imagekit.io/zog1wlw2a/tick.jpg?"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Firebase</h3>
+            
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://ik.imagekit.io/zog1wlw2a/tick.jpg?"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Excel</h3>
+            
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://ik.imagekit.io/zog1wlw2a/tick.jpg?"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>PowerPoint</h3>
+            
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://ik.imagekit.io/zog1wlw2a/tick.jpg?"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Xilinx</h3>
+            
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Hardware</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="https://ik.imagekit.io/zog1wlw2a/tick.jpg?"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Microcontroller</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://ik.imagekit.io/zog1wlw2a/tick.jpg?"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                
+                <div>
+                  <h3>PCB design</h3>
+                 
+                </div>
+            
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="https://ik.imagekit.io/zog1wlw2a/down.png?"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="https://ik.imagekit.io/zog1wlw2a/fresh%20basket.jpeg?"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title"> Fresh Basket</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="https://ik.imagekit.io/zog1wlw2a/shield.png?"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Offline Chatbot</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="https://ik.imagekit.io/zog1wlw2a/travel.jpeg?"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Travel Guide</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="https://ik.imagekit.io/zog1wlw2a/down.png?"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="https://ik.imagekit.io/zog1wlw2a/email.png?"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">harini2310572@ssn.edu.in</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="https://ik.imagekit.io/zog1wlw2a/linkedin.webp?"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/harini-narayanasamy/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2025 Harini Narayanasamy. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
